@@ -1,0 +1,44 @@
+# ============================================================
+# LISTA PERSONALIZADA DE BLOQUEO
+# Bloqueo de telemetría, OTA invasiva y bloatware
+# ============================================================
+
+# --- AT&T: Telemetría, rastreo, DNS hijacking y apps ---
+smetrics.att.com
+cdn.quantummetric.com
+cig.labs.att.com
+iqidev.labs.att.com
+app-analytics-services-att.com
+att.ing.com
+att.com.edgekey.net
+xdapi.att.com
+mobile.att.net
+uap.cingular
+proxy.att.net
+app.att.net
+apps.att.net
+com.att.myWireless
+com.att.tv
+com.att.callprotect
+com.att.csoiam.mobilekey
+digitalturbine.com
+app-cloud.att.com
+
+# --- Movistar México: Telemetría, apps y bloatware ---
+apis.movistar.com.mx
+appmovistarmx.movistar.com.mx
+apismx-dev.movistar.com.mx
+autenticacion.movistar.com.mx
+mi.movistar.com.mx
+telemetria.movistar.com.mx
+com.dti.telefonica
+movistar.com.mx
+
+# --- Honor / MagicOS: OTA, telemetría y rastreo ---
+hihonor.com
+hihonorcdn.com
+honor.com
+query.hihonorcloud.com
+ota.service.hihonor.com
+drcn.hihonorcdn.com
+metrics.hihonor.com
