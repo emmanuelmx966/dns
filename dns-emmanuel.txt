@@ -1,16 +1,35 @@
 # ============================================================
 # LISTA PERSONALIZADA DE BLOQUEO
-# Bloqueo de telemetría, OTA invasiva y bloatware
+# Última actualización: 2026-10-06
 # ============================================================
 
-# --- AT&T: Telemetría, rastreo, DNS hijacking y apps ---
+# ============================================================
+# [1] HONOR / MAGICOS - TELEMETRÍA Y SIN OTA
+# ============================================================
+# Bloqueo total: sin telemetría, sin actualizaciones OTA
+# NO bloquear hihonor.com, honor.com, hihonorcdn.com
+
+query.hihonorcloud.com
+metrics.hihonor.com
+grs.hihonorcloud.com
+metrics-dra.dt.hihonorcloud.com
+metrics-drcn.dt.hihonorcloud.com
+apm.yun.hihonor.com
+trs-dra.push.hihonorcloud.com
+connectivitycheck.platform.hihonorcloud.com
+ota.service.hihonor.com
+
+# ============================================================
+# [2] AT&T - TELEMETRÍA, BLOATWARE Y SIN WEB
+# ============================================================
+# Bloqueo total: sin telemetría, sin backups, sin web de AT&T
+
 smetrics.att.com
 cdn.quantummetric.com
 cig.labs.att.com
 iqidev.labs.att.com
 app-analytics-services-att.com
 att.ing.com
-att.com.edgekey.net
 xdapi.att.com
 mobile.att.net
 uap.cingular
@@ -23,22 +42,13 @@ com.att.callprotect
 com.att.csoiam.mobilekey
 digitalturbine.com
 app-cloud.att.com
+att.com.edgekey.net
 
-# --- Movistar México: Telemetría, apps y bloatware ---
-apis.movistar.com.mx
-appmovistarmx.movistar.com.mx
-apismx-dev.movistar.com.mx
-autenticacion.movistar.com.mx
-mi.movistar.com.mx
+# ============================================================
+# [3] MOVISTAR MÉXICO - TELEMETRÍA
+# ============================================================
+# NO bloquear movistar.com.mx (rompe web de Movistar)
+
 telemetria.movistar.com.mx
+apismx-dev.movistar.com.mx
 com.dti.telefonica
-movistar.com.mx
-
-# --- Honor / MagicOS: OTA, telemetría y rastreo ---
-hihonor.com
-hihonorcdn.com
-honor.com
-query.hihonorcloud.com
-ota.service.hihonor.com
-drcn.hihonorcdn.com
-metrics.hihonor.com
